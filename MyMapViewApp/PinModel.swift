@@ -6,7 +6,7 @@
 //
 
 import MapKit
-struct MyMapPin: Identifiable {
+struct PinModel: Identifiable {
     //กําหนดตัวแปรที่จะใช้เก็บข้อมูลสถานที่น่าสนใจ
     let id = UUID()
     let name: String
